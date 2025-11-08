@@ -8,20 +8,34 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
-    <header>
-        <nav>
-            <h1>port<span>folio</span></h1>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
+<script>
+  function toggleMenu() {
+    const navLinks = document.querySelector("nav > ul");
+    const menuIcon = document.querySelector(".menu-icon");
+    navLinks.classList.toggle("active");
+    menuIcon.classList.toggle("active");
+  }
+</script>
 
-        </header>
+<body>
+   <header>
+  <nav>
+    <h1>port<span>folio</span></h1>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul>
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 
       <main>
 
@@ -99,21 +113,16 @@
         <p><span>Location:</span> vadapalani, chennai</p>
     </div>
     <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="3f7ff62d-b508-4dc8-8aba-e56496b66136">>
+  <input type="hidden" name="access_key" value="3f7ff62d-b508-4dc8-8aba-e56496b66136">
         <input type="text" placeholder="Your Name" required>
         <input type="email" placeholder="Your Email" required>
         <textarea placeholder="Your Message"></textarea>
         <button type="button">Send Message</button>
-    <form/>
+    </form>
 </div>
 
 
    </section>
-
-
-    
-
-
 
 </main>
 
