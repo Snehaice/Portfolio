@@ -11,7 +11,7 @@
 
 
 <body>
-   <header>
+     <header>
   <nav>
     <h1>port<span>folio</span></h1>
     <div class="menu-icon" onclick="toggleMenu()">
@@ -45,40 +45,43 @@
                 Let's work together to create something amazing.</p>
 
            <div>
-          <button id="downloadBtn" >Download resume</button>
+          <a href="SHENEKA-Κ-FlowCV-Resume-20250924 (1).pdf
+" download="Sneha_Resume.pdf">
+  <button>Download Resume</button>
+</a>
+
         <button id="contactMeBtn">contact me</button> 
             </div>
         </div>
         </div>
-
-       
-
-    <section class="outer" id="about">
-       <div class="inner2" >
-        <h1 style="text-transform: uppercase;text-align: center; color: #f7a10d; margin-bottom: 20px; font-size: 45px; font-weight: bold;">about me</h1>
-        <p>I’m a motivated and dedicated Data Analytics graduate with a strong passion for software development and problem-solving. Having completed a Python Full Stack Development course, I’ve gained hands-on experience in both front-end and back-end technologies. I’m eager to apply my technical skills, analytical mindset, and creativity to contribute to impactful projects and grow within a dynamic, forward-thinking organization.</p>
-        
-       </div>
-    </section>
-    
-    <section class="skills" id="skills" >
-  <h2 style="font-size: 50px; color: #f77a0d; margin-bottom: 50px; text-transform: uppercase; padding-top: 50px;"> Skills</h2>
-
-  <div class="skill">
-    
-    <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Django</li>
-      <li>SQL</li>
-    </ul>
+<section class="outer-about" id="about">
+  <div class="inner-about">
+    <h1>About Me</h1>
+    <p>
+      I’m a motivated and dedicated Data Analytics graduate with a strong passion for software development and problem-solving. 
+      Having completed a Python Full Stack Development course, I’ve gained hands-on experience in both front-end and back-end technologies. 
+      I’m eager to apply my technical skills, analytical mindset, and creativity to contribute to impactful projects and grow within 
+      a dynamic, forward-thinking organization.
+    </p>
   </div>
-  
 </section>
 
 
- 
+<section class="skills" id="skills">
+  <div class="outer-skill">
+    <div class="inner-skill">
+      <h1>Skills</h1>
+      <div class="skill-row">
+        <div class="skill-item">HTML & CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">Django</div>
+        <div class="skill-item">SQL</div>
+      </div>
+    </div>
+  </div>
+</section>
+
     <div id="projects" class="projects" >
       <h2 style="text-align: center; padding-top: 80px; font-size: 50px; color:orangered ; text-transform: uppercase;" >Projects</h2>
       <div class="project-grid">
@@ -98,24 +101,25 @@
     </div>
 
    
-    <div class="contact-section" id="contact">
-    <h2 style="text-align: center; padding-top: 90px; color: rgb(246, 35, 35); text-transform: uppercase; font-size: 40px;">Contact Me</h2>
+   <section class="contact-section" id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
     <div class="contact-info">
-        <p><span>Email:</span>sheneka277@gmail.com</p>
-        <p><span>Phone:</span>9578835219</p>
-        <p><span>Location:</span> vadapalani, chennai</p>
+      <p><span>Email:</span> sheneka277@gmail.com</p>
+      <p><span>Phone:</span> 9578835219</p>
+      <p><span>Location:</span> Vadapalani, Chennai</p>
     </div>
+
     <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="3f7ff62d-b508-4dc8-8aba-e56496b66136">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="button">Send Message</button>
+      <input type="hidden" name="access_key" value="3f7ff62d-b508-4dc8-8aba-e56496b66136">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
-</div>
-
-
-   </section>
+  </div>
+</section>
+  
 
 </main>
 
@@ -129,4 +133,5 @@
    
 </body>
 </html>
+
 
