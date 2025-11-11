@@ -270,14 +270,14 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(110deg, #5e35b1 45%, #f9f9f9 45%);
+  background: linear-gradient(110deg, #b7b4bc 45%, #9a8a8a 45%);
   padding: 80px 20px;
   box-sizing: border-box;
   position: relative;
 }
 
 .inner-about {
-  background: linear-gradient(110deg, #f9f9f9 55%, #ede7f6 55%);
+  background: linear-gradient(110deg, #e2dfdf 55%, #ede7f6 55%);
   border-radius: 20px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
   max-width: 950px;
@@ -305,7 +305,7 @@ button {
 .inner-about h1 {
   text-transform: uppercase;
   text-align: left;
-  color: #5e35b1;
+  color: #e6431a;
   font-size: 42px;
   font-weight: 800;
   margin-bottom: 40px;
@@ -318,7 +318,7 @@ button {
   display: block;
   width: 70px;
   height: 4px;
-  background: #9575cd;
+  background: #56568f;
   margin-top: 10px;
   border-radius: 2px;
 }
@@ -342,7 +342,7 @@ button {
 /* === Responsive === */
 @media (max-width: 768px) {
   .outer-about {
-    background: linear-gradient(110deg, #5e35b1 45%, #f9f9f9 45%);
+    background: linear-gradient(110deg, #df764a 45%, #f9f9f9 45%);
     padding: 60px 15px;
   }
 
@@ -374,14 +374,14 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(-120deg, #5e35b1 51%, #f9f9f9 45%);
+  background: linear-gradient(110deg, #9d9ca2 45%, #d8cece 45%);
   padding: 80px 20px;
   box-sizing: border-box;
   position: relative;
 }
 
 .inner-skill {
-  background: linear-gradient(-120deg, #f9f9f9 50%, #e8dcf9 55%);
+  background: linear-gradient(-120deg, #f3e7e7 50%, #e8dcf9 55%);
   border-radius: 20px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
   max-width: 950px;
@@ -409,7 +409,7 @@ button {
 .inner-skill h1 {
   text-transform: uppercase;
   text-align: left;
-  color: #5e35b1;
+  color: #e25724;
   font-size: 42px;
   font-weight: 800;
   margin-bottom: 40px;
@@ -438,9 +438,10 @@ button {
 
 /* Skill Item */
 .skill-item {
-  background: linear-gradient(to right, #ede7f6, #ffffff);
+  background: linear-gradient(to right, #4a3568, #ffffff);
   border: 2px solid transparent;
-  color: #4527a0;
+  border: none;
+  color: #17151d;
   font-weight: 600;
   font-size: 1.1rem;
   padding: 18px 40px;
@@ -459,7 +460,7 @@ button {
   border-color: #9575cd;
   box-shadow: 0 0 25px rgba(149, 117, 205, 0.5);
   transform: translateY(-6px) scale(1.05);
-  color: #311b92;
+  color: #121213;
 }
 
 /* Hover animation for card */
@@ -586,7 +587,7 @@ button {
 .contact-section {
   width: 100%;
   min-height: 100vh;
-  background: #f7f7f7;
+  background: #f6eeee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -614,7 +615,7 @@ button {
   justify-content: space-between;
   max-width: 900px;
   width: 100%;
-  background: #fff;
+  background: #c4b2b2;
   border-radius: 15px;
   padding: 50px 40px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -630,13 +631,15 @@ button {
 
 .contact-info p {
   font-size: 17px;
-  color: #34495e;
+  color: #141617;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .contact-info span {
   font-weight: 600;
-  color: #2980b9;
+  color: #2c04f7;
+  font-size: 20px;
 }
 
 /* Right Form Section */
@@ -671,8 +674,8 @@ form textarea:focus {
 form button {
   width: fit-content;
   padding: 12px 35px;
-  background: #2980b9;
-  color: #fff;
+  background: #121313;
+  color: #fe6c04;
   border: none;
   border-radius: 25px;
   font-weight: 600;
@@ -681,7 +684,7 @@ form button {
 }
 
 form button:hover {
-  background: #1c5980;
+  background: #252526;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(41, 128, 185, 0.4);
 }
@@ -709,6 +712,7 @@ form button:hover {
   }
 
   .contact-section h2 {
+    color: rgb(244, 95, 41);
     font-size: 32px;
   }
 }
