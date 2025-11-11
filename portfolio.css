@@ -342,12 +342,12 @@ button {
 /* === Responsive === */
 @media (max-width: 768px) {
   .outer-about {
-    background: linear-gradient(110deg, #df764a 45%, #f9f9f9 45%);
+    background: linear-gradient(110deg, #b7b4bc 45%, #9a8a8a 45%);
     padding: 60px 15px;
   }
 
   .inner-about {
-    background: linear-gradient(110deg, #f9f9f9 55%, #ede7f6 55%);
+    background: linear-gradient(110deg, #e2dfdf 55%, #ede7f6 55%);
     padding: 45px 25px;
   }
 
@@ -472,12 +472,12 @@ button {
 /* === Responsive (Keep same style) === */
 @media (max-width: 768px) {
   .outer-skill {
-    background: linear-gradient(-120deg, #5e35b1 45%, #f9f9f9 45%);
+    background: linear-gradient(110deg, #9d9ca2 45%, #d8cece 45%);
     padding: 60px 15px;
   }
 
   .inner-skill {
-    background: linear-gradient(-120deg, #f9f9f9 50%, #e8dcf9 55%);
+    background: linear-gradient(to bottom, #512da8, #9575cd);
     padding: 45px 25px;
   }
 
@@ -716,3 +716,4 @@ form button:hover {
     font-size: 32px;
   }
 }
+
