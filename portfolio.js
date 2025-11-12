@@ -5,7 +5,7 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
 });
 
 
-document.getElementById("contactMeBtn").addEventListener("click", function() {
+document.getElementById("contact").addEventListener("click", function() {
    
     const contactSection = document.getElementById("contact");
     if (contactSection) {
@@ -29,3 +29,4 @@ function toggleMenu() {
     navLinks.classList.toggle("active");
     menuIcon.classList.toggle("active");
   }
+
