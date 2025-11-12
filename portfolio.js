@@ -5,17 +5,6 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
 });
 
 
-document.getElementById("contact").addEventListener("click", function() {
-   
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-        contactSection.scrollIntoView({ behavior: "smooth" });
-    } else {
-        // Fallback or alert if the contact section is missing
-        console.warn("Contact section with id='contact' not found. Opening email.");
-        window.location.href = "mailto:sheneka277@gmail.com";
-    }
-});
 
 
 function toggleMenu(){
@@ -29,4 +18,5 @@ function toggleMenu() {
     navLinks.classList.toggle("active");
     menuIcon.classList.toggle("active");
   }
+
 
