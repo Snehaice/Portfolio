@@ -273,7 +273,7 @@ button {
   background: linear-gradient(110deg, #b7b4bc 45%, #9a8a8a 45%);
   padding: 80px 20px;
   box-sizing: border-box;
-  position: relative;
+  position: static;
 }
 
 .inner-about {
@@ -283,7 +283,7 @@ button {
   max-width: 950px;
   width: 100%;
   padding: 70px 60px;
-  position: relative;
+  position: static;
   overflow: hidden;
   transition: all 0.4s ease;
 }
@@ -291,7 +291,7 @@ button {
 /* Gradient accent bar */
 .inner-about::before {
   content: "";
-  position: absolute;
+  position: static;
   left: 0;
   top: 0;
   height: 100%;
@@ -377,7 +377,7 @@ button {
   background: linear-gradient(110deg, #9d9ca2 45%, #d8cece 45%);
   padding: 80px 20px;
   box-sizing: border-box;
-  position: relative;
+  position: static;
 }
 
 .inner-skill {
@@ -387,7 +387,7 @@ button {
   max-width: 950px;
   width: 100%;
   padding: 70px 60px;
-  position: relative;
+  position: static;
   overflow: hidden;
   transition: all 0.4s ease;
 }
@@ -716,4 +716,5 @@ form button:hover {
     font-size: 32px;
   }
 }
+
 
