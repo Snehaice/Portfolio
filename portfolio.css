@@ -593,7 +593,7 @@ button {
   align-items: center;
   padding: 80px 20px;
   box-sizing: border-box;
-  position: relative;
+  position: static;
   flex-direction: column;
 }
 
@@ -716,5 +716,6 @@ form button:hover {
     font-size: 32px;
   }
 }
+
 
 
